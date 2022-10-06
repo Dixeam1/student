@@ -24,7 +24,7 @@ class StudentController extends Controller
      */
     public function create()
     {
-        //
+        return view('create');
     }
 
     /**
@@ -35,7 +35,7 @@ class StudentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

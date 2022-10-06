@@ -17,6 +17,7 @@ class CreateStudentsTable extends Migration
             $table->id();
             $table->string("name");
             $table->string("rollno");
+            $table->string("class");
             $table->string("phone");
             $table->string("file");
             $table->timestamps();
